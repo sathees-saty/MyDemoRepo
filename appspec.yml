@@ -1,8 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: /index.html
-  - source: /Welcome.html
+  - source: /
     destination: /var/www/html/
 overwrite: true
 hooks:
