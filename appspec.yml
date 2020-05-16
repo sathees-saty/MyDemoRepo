@@ -4,6 +4,7 @@ files:
   - source: /index.html
   - source: /Welcome.html
     destination: /var/www/html/
+overwrite: merge
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
